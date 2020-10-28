@@ -1,0 +1,4 @@
+*VSCode (recommended)
+	plugins: live server by ritwik, javascript and css snippets, php snippet 
+*Apache web Server
+*web browser

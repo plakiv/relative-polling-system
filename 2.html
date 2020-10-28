@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> WELCOME TO THE INFLUENCED VOTER </title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+
+	<iframe src="audio.mp3" frameborder="0" allowfullscreen height="0" width="0"></iframe>
+</head>
+<body >
+
+	<header> 17BCS2154 (SHAGUN TIWARI) & (VIKALP UPADHYAY) 17BCS2150  </header>
+	<br>
+
+
+
+	<h1 id="logo"> THE INFLUENCER </h1>
+	
+
+	<ul id="nav">
+		<li><a href="1.html"> Home </a></li>
+		<li><a href="loadcontact.html"> Contact</a> </li>
+		<li> <a href="loadabout.html">About </a> </li>
+	</ul>
+
+
+
+		<img src="giphy.gif"  id="avtar">
+
+		<img src="tie.jpg" id="tie">
+
+		<a href="http://fb.com"><img src="fb.png" id="facebook"></a>
+		<a href="http://twitter.com"><img src="twitter.png" id="twitter"></a>
+		<a href="http://linkedin.com"><img src="link.png" id="linkedin"></a>
+		
+<div id="box">
+	
+	<form action="database.php" method="post" onsubmit="return checkEmptyName()">
+		<h2> Give details to VOTE ! </h2>
+		Name 
+		<br>
+		<input type="text" name="username" value="" placeholder="Enter your name here" required/>
+		<br> <p &nspb> </p>
+		Country
+		<br>
+		<input type="text" name="country" value="" placeholder="Enter your Country here" required/>
+		<br> <p &nspb> </p>
+		Phone
+		<br>
+		<input type="number" name="phone" value="" placeholder="Enter your Phone No here"  required/>
+		<br> <p &nspb> </p>
+		Designation 
+		<br>
+		<input type="text" name="designation" value="" placeholder="Enter your Designation here" required/>
+		<br> <p &nspb> </p>
+
+		<input type="submit" name="Enter" value="Let Me IN" id="letmein">
+	</form>
+</div>	
+
+
+<script type="text/javascript">
+	function checkEmptyName()
+	{
+		if(document.getElementById('username').value==""||document.getElementById('number').value=="")
+			{alert("Please Enter Mandatory fields"); return false;}
+	}
+
+</script>
+
+	<footer> © 2018 by CSE coorporations  </footer>
+
+</body>
+</html>
